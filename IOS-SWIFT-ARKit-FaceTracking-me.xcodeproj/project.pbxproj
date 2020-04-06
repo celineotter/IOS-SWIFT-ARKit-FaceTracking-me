@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEF6A4D9243BD41C00019A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF6A4D8243BD41C00019A89 /* AppDelegate.swift */; };
+		BEF6A4DB243BD41C00019A89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF6A4DA243BD41C00019A89 /* SceneDelegate.swift */; };
+		BEF6A4DD243BD41C00019A89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF6A4DC243BD41C00019A89 /* ViewController.swift */; };
+		BEF6A4E0243BD41C00019A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF6A4DE243BD41C00019A89 /* Main.storyboard */; };
+		BEF6A4E2243BD41D00019A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF6A4E1243BD41D00019A89 /* Assets.xcassets */; };
+		BEF6A4E5243BD41D00019A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF6A4E3243BD41D00019A89 /* LaunchScreen.storyboard */; };
+		BEF6A4F0243BD41D00019A89 /* IOS_SWIFT_ARKit_FaceTracking_meTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF6A4EF243BD41D00019A89 /* IOS_SWIFT_ARKit_FaceTracking_meTests.swift */; };
+		BEF6A4FB243BD41E00019A89 /* IOS_SWIFT_ARKit_FaceTracking_meUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF6A4FA243BD41E00019A89 /* IOS_SWIFT_ARKit_FaceTracking_meUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEF6A4EC243BD41D00019A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF6A4CD243BD41C00019A89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF6A4D4243BD41C00019A89;
+			remoteInfo = "IOS-SWIFT-ARKit-FaceTracking-me";
+		};
+		BEF6A4F7243BD41E00019A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF6A4CD243BD41C00019A89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF6A4D4243BD41C00019A89;
+			remoteInfo = "IOS-SWIFT-ARKit-FaceTracking-me";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEF6A4D5243BD41C00019A89 /* IOS-SWIFT-ARKit-FaceTracking-me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-SWIFT-ARKit-FaceTracking-me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF6A4D8243BD41C00019A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEF6A4DA243BD41C00019A89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEF6A4DC243BD41C00019A89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEF6A4DF243BD41C00019A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEF6A4E1243BD41D00019A89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEF6A4E4243BD41D00019A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEF6A4E6243BD41D00019A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF6A4EB243BD41D00019A89 /* IOS-SWIFT-ARKit-FaceTracking-meTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-SWIFT-ARKit-FaceTracking-meTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF6A4EF243BD41D00019A89 /* IOS_SWIFT_ARKit_FaceTracking_meTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_SWIFT_ARKit_FaceTracking_meTests.swift; sourceTree = "<group>"; };
+		BEF6A4F1243BD41D00019A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF6A4F6243BD41E00019A89 /* IOS-SWIFT-ARKit-FaceTracking-meUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-SWIFT-ARKit-FaceTracking-meUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF6A4FA243BD41E00019A89 /* IOS_SWIFT_ARKit_FaceTracking_meUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_SWIFT_ARKit_FaceTracking_meUITests.swift; sourceTree = "<group>"; };
+		BEF6A4FC243BD41E00019A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEF6A4D2243BD41C00019A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF6A4E8243BD41D00019A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF6A4F3243BD41E00019A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEF6A4CC243BD41C00019A89 = {
+			isa = PBXGroup;
+			children = (
+				BEF6A4D7243BD41C00019A89 /* IOS-SWIFT-ARKit-FaceTracking-me */,
+				BEF6A4EE243BD41D00019A89 /* IOS-SWIFT-ARKit-FaceTracking-meTests */,
+				BEF6A4F9243BD41E00019A89 /* IOS-SWIFT-ARKit-FaceTracking-meUITests */,
+				BEF6A4D6243BD41C00019A89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEF6A4D6243BD41C00019A89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF6A4D5243BD41C00019A89 /* IOS-SWIFT-ARKit-FaceTracking-me.app */,
+				BEF6A4EB243BD41D00019A89 /* IOS-SWIFT-ARKit-FaceTracking-meTests.xctest */,
+				BEF6A4F6243BD41E00019A89 /* IOS-SWIFT-ARKit-FaceTracking-meUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEF6A4D7243BD41C00019A89 /* IOS-SWIFT-ARKit-FaceTracking-me */ = {
+			isa = PBXGroup;
+			children = (
+				BEF6A4D8243BD41C00019A89 /* AppDelegate.swift */,
+				BEF6A4DA243BD41C00019A89 /* SceneDelegate.swift */,
+				BEF6A4DC243BD41C00019A89 /* ViewController.swift */,
+				BEF6A4DE243BD41C00019A89 /* Main.storyboard */,
+				BEF6A4E1243BD41D00019A89 /* Assets.xcassets */,
+				BEF6A4E3243BD41D00019A89 /* LaunchScreen.storyboard */,
+				BEF6A4E6243BD41D00019A89 /* Info.plist */,
+			);
+			path = "IOS-SWIFT-ARKit-FaceTracking-me";
+			sourceTree = "<group>";
+		};
+		BEF6A4EE243BD41D00019A89 /* IOS-SWIFT-ARKit-FaceTracking-meTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF6A4EF243BD41D00019A89 /* IOS_SWIFT_ARKit_FaceTracking_meTests.swift */,
+				BEF6A4F1243BD41D00019A89 /* Info.plist */,
+			);
+			path = "IOS-SWIFT-ARKit-FaceTracking-meTests";
+			sourceTree = "<group>";
+		};
+		BEF6A4F9243BD41E00019A89 /* IOS-SWIFT-ARKit-FaceTracking-meUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF6A4FA243BD41E00019A89 /* IOS_SWIFT_ARKit_FaceTracking_meUITests.swift */,
+				BEF6A4FC243BD41E00019A89 /* Info.plist */,
+			);
+			path = "IOS-SWIFT-ARKit-FaceTracking-meUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEF6A4D4243BD41C00019A89 /* IOS-SWIFT-ARKit-FaceTracking-me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF6A4FF243BD41E00019A89 /* Build configuration list for PBXNativeTarget "IOS-SWIFT-ARKit-FaceTracking-me" */;
+			buildPhases = (
+				BEF6A4D1243BD41C00019A89 /* Sources */,
+				BEF6A4D2243BD41C00019A89 /* Frameworks */,
+				BEF6A4D3243BD41C00019A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IOS-SWIFT-ARKit-FaceTracking-me";
+			productName = "IOS-SWIFT-ARKit-FaceTracking-me";
+			productReference = BEF6A4D5243BD41C00019A89 /* IOS-SWIFT-ARKit-FaceTracking-me.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEF6A4EA243BD41D00019A89 /* IOS-SWIFT-ARKit-FaceTracking-meTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF6A502243BD41E00019A89 /* Build configuration list for PBXNativeTarget "IOS-SWIFT-ARKit-FaceTracking-meTests" */;
+			buildPhases = (
+				BEF6A4E7243BD41D00019A89 /* Sources */,
+				BEF6A4E8243BD41D00019A89 /* Frameworks */,
+				BEF6A4E9243BD41D00019A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF6A4ED243BD41D00019A89 /* PBXTargetDependency */,
+			);
+			name = "IOS-SWIFT-ARKit-FaceTracking-meTests";
+			productName = "IOS-SWIFT-ARKit-FaceTracking-meTests";
+			productReference = BEF6A4EB243BD41D00019A89 /* IOS-SWIFT-ARKit-FaceTracking-meTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEF6A4F5243BD41E00019A89 /* IOS-SWIFT-ARKit-FaceTracking-meUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF6A505243BD41E00019A89 /* Build configuration list for PBXNativeTarget "IOS-SWIFT-ARKit-FaceTracking-meUITests" */;
+			buildPhases = (
+				BEF6A4F2243BD41E00019A89 /* Sources */,
+				BEF6A4F3243BD41E00019A89 /* Frameworks */,
+				BEF6A4F4243BD41E00019A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF6A4F8243BD41E00019A89 /* PBXTargetDependency */,
+			);
+			name = "IOS-SWIFT-ARKit-FaceTracking-meUITests";
+			productName = "IOS-SWIFT-ARKit-FaceTracking-meUITests";
+			productReference = BEF6A4F6243BD41E00019A89 /* IOS-SWIFT-ARKit-FaceTracking-meUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEF6A4CD243BD41C00019A89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Celine Otter";
+				TargetAttributes = {
+					BEF6A4D4243BD41C00019A89 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					BEF6A4EA243BD41D00019A89 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = BEF6A4D4243BD41C00019A89;
+					};
+					BEF6A4F5243BD41E00019A89 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = BEF6A4D4243BD41C00019A89;
+					};
+				};
+			};
+			buildConfigurationList = BEF6A4D0243BD41C00019A89 /* Build configuration list for PBXProject "IOS-SWIFT-ARKit-FaceTracking-me" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEF6A4CC243BD41C00019A89;
+			productRefGroup = BEF6A4D6243BD41C00019A89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF6A4D4243BD41C00019A89 /* IOS-SWIFT-ARKit-FaceTracking-me */,
+				BEF6A4EA243BD41D00019A89 /* IOS-SWIFT-ARKit-FaceTracking-meTests */,
+				BEF6A4F5243BD41E00019A89 /* IOS-SWIFT-ARKit-FaceTracking-meUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEF6A4D3243BD41C00019A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF6A4E5243BD41D00019A89 /* LaunchScreen.storyboard in Resources */,
+				BEF6A4E2243BD41D00019A89 /* Assets.xcassets in Resources */,
+				BEF6A4E0243BD41C00019A89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF6A4E9243BD41D00019A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF6A4F4243BD41E00019A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEF6A4D1243BD41C00019A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF6A4DD243BD41C00019A89 /* ViewController.swift in Sources */,
+				BEF6A4D9243BD41C00019A89 /* AppDelegate.swift in Sources */,
+				BEF6A4DB243BD41C00019A89 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF6A4E7243BD41D00019A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF6A4F0243BD41D00019A89 /* IOS_SWIFT_ARKit_FaceTracking_meTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF6A4F2243BD41E00019A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF6A4FB243BD41E00019A89 /* IOS_SWIFT_ARKit_FaceTracking_meUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEF6A4ED243BD41D00019A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF6A4D4243BD41C00019A89 /* IOS-SWIFT-ARKit-FaceTracking-me */;
+			targetProxy = BEF6A4EC243BD41D00019A89 /* PBXContainerItemProxy */;
+		};
+		BEF6A4F8243BD41E00019A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF6A4D4243BD41C00019A89 /* IOS-SWIFT-ARKit-FaceTracking-me */;
+			targetProxy = BEF6A4F7243BD41E00019A89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEF6A4DE243BD41C00019A89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF6A4DF243BD41C00019A89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEF6A4E3243BD41D00019A89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF6A4E4243BD41D00019A89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEF6A4FD243BD41E00019A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEF6A4FE243BD41E00019A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEF6A500243BD41E00019A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF5T86CRVW;
+				INFOPLIST_FILE = "IOS-SWIFT-ARKit-FaceTracking-me/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gitlab.com-akiliinteractive.IOS-SWIFT-ARKit-FaceTracking-me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEF6A501243BD41E00019A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF5T86CRVW;
+				INFOPLIST_FILE = "IOS-SWIFT-ARKit-FaceTracking-me/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gitlab.com-akiliinteractive.IOS-SWIFT-ARKit-FaceTracking-me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEF6A503243BD41E00019A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF5T86CRVW;
+				INFOPLIST_FILE = "IOS-SWIFT-ARKit-FaceTracking-meTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gitlab.com-akiliinteractive.IOS-SWIFT-ARKit-FaceTracking-meTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS-SWIFT-ARKit-FaceTracking-me.app/IOS-SWIFT-ARKit-FaceTracking-me";
+			};
+			name = Debug;
+		};
+		BEF6A504243BD41E00019A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF5T86CRVW;
+				INFOPLIST_FILE = "IOS-SWIFT-ARKit-FaceTracking-meTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gitlab.com-akiliinteractive.IOS-SWIFT-ARKit-FaceTracking-meTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS-SWIFT-ARKit-FaceTracking-me.app/IOS-SWIFT-ARKit-FaceTracking-me";
+			};
+			name = Release;
+		};
+		BEF6A506243BD41E00019A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF5T86CRVW;
+				INFOPLIST_FILE = "IOS-SWIFT-ARKit-FaceTracking-meUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gitlab.com-akiliinteractive.IOS-SWIFT-ARKit-FaceTracking-meUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IOS-SWIFT-ARKit-FaceTracking-me";
+			};
+			name = Debug;
+		};
+		BEF6A507243BD41E00019A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF5T86CRVW;
+				INFOPLIST_FILE = "IOS-SWIFT-ARKit-FaceTracking-meUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gitlab.com-akiliinteractive.IOS-SWIFT-ARKit-FaceTracking-meUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IOS-SWIFT-ARKit-FaceTracking-me";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEF6A4D0243BD41C00019A89 /* Build configuration list for PBXProject "IOS-SWIFT-ARKit-FaceTracking-me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF6A4FD243BD41E00019A89 /* Debug */,
+				BEF6A4FE243BD41E00019A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF6A4FF243BD41E00019A89 /* Build configuration list for PBXNativeTarget "IOS-SWIFT-ARKit-FaceTracking-me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF6A500243BD41E00019A89 /* Debug */,
+				BEF6A501243BD41E00019A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF6A502243BD41E00019A89 /* Build configuration list for PBXNativeTarget "IOS-SWIFT-ARKit-FaceTracking-meTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF6A503243BD41E00019A89 /* Debug */,
+				BEF6A504243BD41E00019A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF6A505243BD41E00019A89 /* Build configuration list for PBXNativeTarget "IOS-SWIFT-ARKit-FaceTracking-meUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF6A506243BD41E00019A89 /* Debug */,
+				BEF6A507243BD41E00019A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEF6A4CD243BD41C00019A89 /* Project object */;
+}
