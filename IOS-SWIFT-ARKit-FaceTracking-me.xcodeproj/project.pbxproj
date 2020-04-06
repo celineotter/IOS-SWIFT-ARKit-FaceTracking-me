@@ -435,7 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NF5T86CRVW;
+				DEVELOPMENT_TEAM = ZRYABP2XDR;
 				INFOPLIST_FILE = "IOS-SWIFT-ARKit-FaceTracking-me/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,7 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NF5T86CRVW;
+				DEVELOPMENT_TEAM = ZRYABP2XDR;
 				INFOPLIST_FILE = "IOS-SWIFT-ARKit-FaceTracking-me/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
